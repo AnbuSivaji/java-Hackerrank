@@ -47,6 +47,7 @@ Sample Case 1: n=24
  */
 import java.util.Scanner;
 
+
 public class Main {
     public static void main(String[] args) {
         
