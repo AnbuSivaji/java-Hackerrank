@@ -56,7 +56,8 @@ public class Solution3 {
    
       static boolean flag;
       static int B;
-      static int H; 
+      static int H;
+
     static{
     Scanner scan=new Scanner(System.in);
    
@@ -68,6 +69,7 @@ public class Solution3 {
     }else{
         System.out.println("java.lang.Exception: Breadth and height must be positive");
     }
+    scan.close();
 }
 
 
@@ -79,7 +81,9 @@ public static void main(String[] args){
 			System.out.print(area);
 		}
 		
-	}//end of main
+  
+	}
+  //end of main
 
 }//end of class
 
